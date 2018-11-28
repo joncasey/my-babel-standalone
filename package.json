@@ -9,6 +9,7 @@
     "@babel/plugin-proposal-function-bind": "^7",
     "@babel/plugin-proposal-optional-chaining": "^7",
     "babel-loader": "^8",
+    "uglifyjs-webpack-plugin": "*",
     "webpack": "^4",
     "whatwg-fetch": "^3"
   }
