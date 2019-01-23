@@ -1,7 +1,7 @@
 {
   "name": "my-babel-standalone",
   "main": "src/index.js",
-  "version": "7.3.0",
+  "version": "7.3.1",
   "dependencies": {
     "@babel/core": "^7",
     "@babel/polyfill": "^7",
