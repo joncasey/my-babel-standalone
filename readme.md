@@ -6,3 +6,18 @@ This standalone build uses [@babel/preset-env](https://github.com/babel/babel/tr
 * [my-babel-standalone](https://github.com/joncasey/my-babel-standalone) = 1.5 mb minified
 
 Currently, it's being used in the latest builds of [modern-hta](https://github.com/joncasey/modern-hta).
+
+### Example
+````javascript
+var es5 = transform('class $ { }')
+
+function transform (code) {
+  return Babel.transform(code, {
+    presets: ['env'],
+    plugins: [
+      'proposal-function-bind',
+      'proposal-optional-chaining'
+    ]
+  }).code.replace(/^"use strict";\s+/, '')
+}
+````
