@@ -36,7 +36,13 @@ const webpackConfig = {
   output: {
     library: 'Babel',
     libraryTarget: 'umd'
-  }
+  },
+  plugins: [
+    new webpack.NormalModuleReplacementPlugin(
+      /^\.{2}\/package\.json/,
+      `${__dirname}/package.json`
+    )
+  ]
 }
 
 const pack = (config = webpackConfig) => new Promise((resolve, reject) => {
