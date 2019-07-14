@@ -9,6 +9,7 @@ BabelStandalone.registerPresets({
 
 BabelStandalone.registerPlugins({
   'proposal-async-generator-functions': require('@babel/plugin-proposal-async-generator-functions'),
+  'proposal-dynamic-import': require('@babel/plugin-proposal-dynamic-import'),
   'proposal-function-bind': require('@babel/plugin-proposal-function-bind'),
   'proposal-json-strings': require('@babel/plugin-proposal-json-strings'),
   'proposal-object-rest-spread': require('@babel/plugin-proposal-object-rest-spread'),
@@ -16,6 +17,7 @@ BabelStandalone.registerPlugins({
   'proposal-optional-chaining': require('@babel/plugin-proposal-optional-chaining'),
   'proposal-unicode-property-regex': require('@babel/plugin-proposal-unicode-property-regex'),
   'syntax-async-generators': require('@babel/plugin-syntax-async-generators'),
+  'syntax-dynamic-import': require('@babel/plugin-syntax-dynamic-import'),
   'syntax-json-strings': require('@babel/plugin-syntax-json-strings'),
   'syntax-object-rest-spread': require('@babel/plugin-syntax-object-rest-spread'),
   'syntax-optional-catch-binding': require('@babel/plugin-syntax-optional-catch-binding'),
