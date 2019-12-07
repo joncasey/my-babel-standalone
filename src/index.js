@@ -21,6 +21,7 @@ BabelStandalone.registerPlugins({
   'syntax-json-strings': require('@babel/plugin-syntax-json-strings'),
   'syntax-object-rest-spread': require('@babel/plugin-syntax-object-rest-spread'),
   'syntax-optional-catch-binding': require('@babel/plugin-syntax-optional-catch-binding'),
+  'syntax-top-level-await': require('@babel/plugin-syntax-top-level-await'),
   'transform-arrow-functions': require('@babel/plugin-transform-arrow-functions'),
   'transform-async-to-generator': require('@babel/plugin-transform-async-to-generator'),
   'transform-block-scoped-functions': require('@babel/plugin-transform-block-scoped-functions'),
