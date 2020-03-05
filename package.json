@@ -1,13 +1,12 @@
 {
   "name": "my-babel-standalone",
   "main": "src/index.js",
-  "version": "7.7.7",
+  "version": "7.8.7",
   "dependencies": {
     "@babel/core": "latest",
     "@babel/polyfill": "latest",
     "@babel/preset-env": "latest",
     "@babel/plugin-proposal-function-bind": "latest",
-    "@babel/plugin-proposal-optional-chaining": "latest",
     "babel-loader": "latest",
     "webpack": "latest",
     "whatwg-fetch": "latest"
