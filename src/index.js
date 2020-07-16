@@ -9,6 +9,7 @@ BabelStandalone.registerPresets({
 
 BabelStandalone.registerPlugins({
   'proposal-async-generator-functions': require('@babel/plugin-proposal-async-generator-functions'),
+  'proposal-class-properties': require('@babel/plugin-proposal-class-properties'),
   'proposal-dynamic-import': require('@babel/plugin-proposal-dynamic-import'),
   'proposal-function-bind': require('@babel/plugin-proposal-function-bind'),
   'proposal-json-strings': require('@babel/plugin-proposal-json-strings'),
@@ -17,8 +18,10 @@ BabelStandalone.registerPlugins({
   'proposal-object-rest-spread': require('@babel/plugin-proposal-object-rest-spread'),
   'proposal-optional-catch-binding': require('@babel/plugin-proposal-optional-catch-binding'),
   'proposal-optional-chaining': require('@babel/plugin-proposal-optional-chaining'),
+  'proposal-private-methods': require('@babel/plugin-proposal-private-methods'),
   'proposal-unicode-property-regex': require('@babel/plugin-proposal-unicode-property-regex'),
   'syntax-async-generators': require('@babel/plugin-syntax-async-generators'),
+  'syntax-class-properties': require('@babel/plugin-syntax-class-properties'),
   'syntax-dynamic-import': require('@babel/plugin-syntax-dynamic-import'),
   'syntax-json-strings': require('@babel/plugin-syntax-json-strings'),
   'syntax-nullish-coalescing-operator': require('@babel/plugin-syntax-nullish-coalescing-operator'),
@@ -57,5 +60,6 @@ BabelStandalone.registerPlugins({
   'transform-sticky-regex': require('@babel/plugin-transform-sticky-regex'),
   'transform-template-literals': require('@babel/plugin-transform-template-literals'),
   'transform-typeof-symbol': require('@babel/plugin-transform-typeof-symbol'),
+  'transform-unicode-escapes': require('@babel/plugin-transform-unicode-escapes'),
   'transform-unicode-regex': require('@babel/plugin-transform-unicode-regex')
 })
